@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 23 10:56:38 2020
-
-@author: antoi
-"""
 
 import nltk
 import re
@@ -11,7 +6,7 @@ import string
 import numpy as np
 import random
 
-f=open('infos_corona.txt','r',errors = 'ignore', encoding = "utf8")
+f=open('data/infos_corona.txt','r',errors = 'ignore', encoding = "utf8")
 texte=f.read()
 
 #nltk.download('punkt') # first-time use only
